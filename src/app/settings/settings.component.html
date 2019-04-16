@@ -1,0 +1,39 @@
+<div class="box">
+  <h2>SETTINGS</h2>
+  <div class="control-box">
+    <div class="control-name">
+      Car body color
+    </div>
+    <div class="control">
+      <select name="body_color" [(ngModel)]="globalconfig.current_appconfig[0].value" (input)='colorChanged($event)'>
+        <option name="red" value="RED">Red</option>
+        <option name="blue" value="BLUE">Blue</option>
+        <option name="green" value="GREEN">Green</option>
+      </select>
+    </div>
+  </div>
+  <div class="control-box">
+    <div class="control-name">
+      Rim type
+    </div>
+    <div class="control">
+      <select name="body_color" [(ngModel)]="globalconfig.current_appconfig[0].value" (input)='colorChanged($event)'>
+        <option name="red" value="RED">Red</option>
+        <option name="blue" value="BLUE">Blue</option>
+        <option name="green" value="GREEN">Green</option>
+      </select>
+    </div>
+  </div>
+  <div class="control-box">
+    <div class="control-name">
+      {{globalconfig.current_appconfig[0].value}}
+    </div>
+    <div class="control">
+      <select name="body_color" [(ngModel)]="globalconfig.current_appconfig[0].value" (input)='colorChanged($event)'>
+        <option name="red" value="RED">Red</option>
+        <option name="blue" value="BLUE">Blue</option>
+        <option name="green" value="GREEN">Green</option>
+      </select>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,45 @@
+
+.control-box
+{
+    border-bottom: 2px solid #ddd;
+}
+.control-name
+{
+    margin: 5px;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.control
+{
+    display: inline-block;
+    padding: 2px 2px;
+    text-align: center;
+    margin: 0 auto;
+}
+select
+{
+    display: inline-block;
+    position: relative;
+    margin: 5px;
+    color: white;
+    display: block;
+    padding: 2px 12px;
+    border: 2px solid #ddd;
+    background-color: rgb(29, 27, 27);
+    width: 200px;
+    transform: 0.25s linear;
+    text-align: center;
+    height: 30px;
+    border-radius: 30px;
+    shape-outside: none;
+    outline: none;
+}
+select:hover
+{
+    border: 2px solid rgb(131, 228, 131);
+    background-color: black;
+    color: white;
+    width: 250px;
+}

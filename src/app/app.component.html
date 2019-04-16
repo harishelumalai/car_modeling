@@ -1,0 +1,8 @@
+<div class="container">
+  <div class="theater-container">
+    <app-theatre [globalconfig1]='GlobalConfig'></app-theatre>
+  </div>
+  <div class="settings-container">
+    <app-settings [globalconfig]='GlobalConfig' (config_change_event)='globalChanged($event)'></app-settings>
+  </div>
+</div>
